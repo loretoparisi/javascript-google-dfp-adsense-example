@@ -2,7 +2,6 @@
 /**
  *  Ads Scrambler
  * @author: loreto at musixmatch dot com
- * @copyright 2015 Musixmatch Spa
  */
 
 /**
@@ -122,7 +121,7 @@ function AdsScrambler(containers, slots, options) {
    
    var self=this;
    
-   console.log("AdsScramblers "  + self.version(), "@2015 https://musixmatch.com" );
+   console.log("AdsScramblers "  + self.version() );
    
    if( typeof(adsbygoogle)!='undefined' ) { // need to have a static lazy loading
    
